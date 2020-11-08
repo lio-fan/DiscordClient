@@ -1,0 +1,11 @@
+# Packages
+node_modules/
+
+# Authentication
+.env
+
+# npm NPM
+package-lock.json
+
+# IDE Files
+.vscode/
