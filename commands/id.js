@@ -4,7 +4,6 @@ const userSchema = require('../schemas/data-schema')
 class ID extends Command {
     constructor() {
         super('id', {
-            userPermissions: ['MANAGE_GUILD'],
             aliases: ['id'],
             description: {
                 description: 'view the in-game ID of you or another user.',
