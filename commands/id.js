@@ -23,9 +23,6 @@ class ID extends Command {
     }
     async exec(message, args) {
         return dbFind(args.member.id, `**${args.member.user.tag}**'s ID is:`, 'userID', userSchema, 'false', 'false', message)
-        //return dbFind(args.member.id, `**${args.member.user.tag}**'s ID is:`, 'userID', userSchema, 'false', 'false', message)
-            //return dbFind(args.member.id, `${args.member.user.tag}'s ID is:`, 'userID', 'no', 'no', userSchema, message, 'false')
-         //dbFind(args.member.id, `**${args.member.user.tag}**'s ID is: `, 'userID', 'users', message)
         }
 }
 module.exports = ID;
