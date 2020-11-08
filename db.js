@@ -45,7 +45,7 @@ async function dbFind(id, text, resultsearchfor, schema, addRole, roleMember, me
                 }
                 return;
             }
-            embed.setDescription(`**${message.author.tag}**, ` + text + ' ' + variable)
+            embed.setDescription(`**${message.author.tag}**, ` + text + ' **' + variable + '**')
             embed.setColor(color)
             message.channel.send(embed)
         } finally {
